@@ -6,7 +6,8 @@ This repository contains mainly two approaches for recommending songs to a user.
 There are datasets also available along with the relevant folders.
 In order to run the code on your system, the following steps have to be followed:
 1. Clone the repository
-2. Change the path in the code and set it to the path of the file in your system.
+2. Unzip the dataset files.
+3. Change the path in the code and set it to the path of the file in your system.
 
 The packages required for the project are:
 1. gensim
@@ -14,3 +15,13 @@ The packages required for the project are:
 3. tensorflow
 
 If you have these installed, you are good to go.
+
+The file structure of the project is as follows:
+1. dir_over_sequence - implementation of distributed item representations over the session activities of the user
+	a. sessions.zip (dataset)
+	b. prod2vec_over_sessions.ipynb
+2. word_embedding_on_songmetatdata - implementation of word embedding over song details to find similarity
+	a. song_data.csv.zip (song metadata)
+	b. kaggle_visible_evaluation_triplets.zip (user triplets)
+	c. word2vec_over_song_metadata.ipynb
+
