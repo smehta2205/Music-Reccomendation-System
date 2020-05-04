@@ -17,11 +17,11 @@ The packages required for the project are:
 If you have these installed, you are good to go.
 
 The file structure of the project is as follows:
-1. dir_over_sequence - implementation of distributed item representations over the session activities of the user
-	a. sessions.zip (dataset)
+1. dir_over_sequence - implementation of distributed item representations over the session activities of the user  
+	a. sessions.zip (dataset)  
 	b. prod2vec_over_sessions.ipynb
-2. word_embedding_on_songmetatdata - implementation of word embedding over song details to find similarity
-	a. song_data.csv.zip (song metadata)
-	b. kaggle_visible_evaluation_triplets.zip (user triplets)
+2. word_embedding_on_songmetatdata - implementation of word embedding over song details to find similarity  
+	a. song_data.csv.zip (song metadata)  
+	b. kaggle_visible_evaluation_triplets.zip (user triplets)  
 	c. word2vec_over_song_metadata.ipynb
 
